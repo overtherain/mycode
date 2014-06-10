@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D64057193F582C00FF0E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64056193F582C00FF0E1E /* Foundation.framework */; };
+		78D64059193F582C00FF0E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64058193F582C00FF0E1E /* CoreGraphics.framework */; };
+		78D6405B193F582C00FF0E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6405A193F582C00FF0E1E /* UIKit.framework */; };
+		78D64061193F582C00FF0E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D6405F193F582C00FF0E1E /* InfoPlist.strings */; };
+		78D64063193F582C00FF0E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64062193F582C00FF0E1E /* main.m */; };
+		78D64067193F582C00FF0E1E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78D64066193F582C00FF0E1E /* AppDelegate.mm */; };
+		78D64069193F582C00FF0E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D64068193F582C00FF0E1E /* Images.xcassets */; };
+		78D64070193F582C00FF0E1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6406F193F582C00FF0E1E /* XCTest.framework */; };
+		78D64071193F582C00FF0E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64056193F582C00FF0E1E /* Foundation.framework */; };
+		78D64072193F582C00FF0E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6405A193F582C00FF0E1E /* UIKit.framework */; };
+		78D6407A193F582C00FF0E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D64078193F582C00FF0E1E /* InfoPlist.strings */; };
+		78D6407C193F582C00FF0E1E /* AngryBirdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D6407B193F582C00FF0E1E /* AngryBirdsTests.m */; };
+		78D64086193F59EE00FF0E1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64085193F59EE00FF0E1E /* QuartzCore.framework */; };
+		78D64089193F59FC00FF0E1E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64087193F59FC00FF0E1E /* OpenAL.framework */; };
+		78D6408A193F59FC00FF0E1E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D64088193F59FC00FF0E1E /* OpenGLES.framework */; };
+		78D6408C193F5A0800FF0E1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6408B193F5A0800FF0E1E /* AVFoundation.framework */; };
+		78D6408E193F5A1300FF0E1E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6408D193F5A1300FF0E1E /* AudioToolbox.framework */; };
+		78D64090193F5A3100FF0E1E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6408F193F5A3100FF0E1E /* libz.dylib */; };
+		78D64096193F5CDC00FF0E1E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64095193F5CDC00FF0E1E /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D64073193F582C00FF0E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D6404B193F582B00FF0E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D64052193F582B00FF0E1E;
+			remoteInfo = AngryBirds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78D64053193F582C00FF0E1E /* AngryBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D64056193F582C00FF0E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78D64058193F582C00FF0E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78D6405A193F582C00FF0E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78D6405E193F582C00FF0E1E /* AngryBirds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngryBirds-Info.plist"; sourceTree = "<group>"; };
+		78D64060193F582C00FF0E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D64062193F582C00FF0E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D64064193F582C00FF0E1E /* AngryBirds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngryBirds-Prefix.pch"; sourceTree = "<group>"; };
+		78D64065193F582C00FF0E1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78D64066193F582C00FF0E1E /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		78D64068193F582C00FF0E1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78D6406E193F582C00FF0E1E /* AngryBirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryBirdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D6406F193F582C00FF0E1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78D64077193F582C00FF0E1E /* AngryBirdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngryBirdsTests-Info.plist"; sourceTree = "<group>"; };
+		78D64079193F582C00FF0E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D6407B193F582C00FF0E1E /* AngryBirdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngryBirdsTests.m; sourceTree = "<group>"; };
+		78D64085193F59EE00FF0E1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78D64087193F59FC00FF0E1E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		78D64088193F59FC00FF0E1E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		78D6408B193F5A0800FF0E1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78D6408D193F5A1300FF0E1E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		78D6408F193F5A3100FF0E1E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		78D64094193F5CDC00FF0E1E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		78D64095193F5CDC00FF0E1E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D64050193F582B00FF0E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D64057193F582C00FF0E1E /* Foundation.framework in Frameworks */,
+				78D64090193F5A3100FF0E1E /* libz.dylib in Frameworks */,
+				78D6408E193F5A1300FF0E1E /* AudioToolbox.framework in Frameworks */,
+				78D6408C193F5A0800FF0E1E /* AVFoundation.framework in Frameworks */,
+				78D64089193F59FC00FF0E1E /* OpenAL.framework in Frameworks */,
+				78D6408A193F59FC00FF0E1E /* OpenGLES.framework in Frameworks */,
+				78D64086193F59EE00FF0E1E /* QuartzCore.framework in Frameworks */,
+				78D64059193F582C00FF0E1E /* CoreGraphics.framework in Frameworks */,
+				78D6405B193F582C00FF0E1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D6406B193F582C00FF0E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D64070193F582C00FF0E1E /* XCTest.framework in Frameworks */,
+				78D64072193F582C00FF0E1E /* UIKit.framework in Frameworks */,
+				78D64071193F582C00FF0E1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D6404A193F582B00FF0E1E = {
+			isa = PBXGroup;
+			children = (
+				78D6405C193F582C00FF0E1E /* AngryBirds */,
+				78D64075193F582C00FF0E1E /* AngryBirdsTests */,
+				78D64055193F582C00FF0E1E /* Frameworks */,
+				78D64054193F582C00FF0E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78D64054193F582C00FF0E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D64053193F582C00FF0E1E /* AngryBirds.app */,
+				78D6406E193F582C00FF0E1E /* AngryBirdsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D64055193F582C00FF0E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D6408F193F5A3100FF0E1E /* libz.dylib */,
+				78D6408D193F5A1300FF0E1E /* AudioToolbox.framework */,
+				78D6408B193F5A0800FF0E1E /* AVFoundation.framework */,
+				78D64087193F59FC00FF0E1E /* OpenAL.framework */,
+				78D64088193F59FC00FF0E1E /* OpenGLES.framework */,
+				78D64085193F59EE00FF0E1E /* QuartzCore.framework */,
+				78D64056193F582C00FF0E1E /* Foundation.framework */,
+				78D64058193F582C00FF0E1E /* CoreGraphics.framework */,
+				78D6405A193F582C00FF0E1E /* UIKit.framework */,
+				78D6406F193F582C00FF0E1E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D6405C193F582C00FF0E1E /* AngryBirds */ = {
+			isa = PBXGroup;
+			children = (
+				78D64065193F582C00FF0E1E /* AppDelegate.h */,
+				78D64066193F582C00FF0E1E /* AppDelegate.mm */,
+				78D64094193F5CDC00FF0E1E /* RootViewController.h */,
+				78D64095193F5CDC00FF0E1E /* RootViewController.m */,
+				78D64068193F582C00FF0E1E /* Images.xcassets */,
+				78D6405D193F582C00FF0E1E /* Supporting Files */,
+			);
+			path = AngryBirds;
+			sourceTree = "<group>";
+		};
+		78D6405D193F582C00FF0E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D6405E193F582C00FF0E1E /* AngryBirds-Info.plist */,
+				78D6405F193F582C00FF0E1E /* InfoPlist.strings */,
+				78D64062193F582C00FF0E1E /* main.m */,
+				78D64064193F582C00FF0E1E /* AngryBirds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D64075193F582C00FF0E1E /* AngryBirdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D6407B193F582C00FF0E1E /* AngryBirdsTests.m */,
+				78D64076193F582C00FF0E1E /* Supporting Files */,
+			);
+			path = AngryBirdsTests;
+			sourceTree = "<group>";
+		};
+		78D64076193F582C00FF0E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D64077193F582C00FF0E1E /* AngryBirdsTests-Info.plist */,
+				78D64078193F582C00FF0E1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D64052193F582B00FF0E1E /* AngryBirds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D6407F193F582C00FF0E1E /* Build configuration list for PBXNativeTarget "AngryBirds" */;
+			buildPhases = (
+				78D6404F193F582B00FF0E1E /* Sources */,
+				78D64050193F582B00FF0E1E /* Frameworks */,
+				78D64051193F582B00FF0E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryBirds;
+			productName = AngryBirds;
+			productReference = 78D64053193F582C00FF0E1E /* AngryBirds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D6406D193F582C00FF0E1E /* AngryBirdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D64082193F582C00FF0E1E /* Build configuration list for PBXNativeTarget "AngryBirdsTests" */;
+			buildPhases = (
+				78D6406A193F582C00FF0E1E /* Sources */,
+				78D6406B193F582C00FF0E1E /* Frameworks */,
+				78D6406C193F582C00FF0E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D64074193F582C00FF0E1E /* PBXTargetDependency */,
+			);
+			name = AngryBirdsTests;
+			productName = AngryBirdsTests;
+			productReference = 78D6406E193F582C00FF0E1E /* AngryBirdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D6404B193F582B00FF0E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Chobits;
+				TargetAttributes = {
+					78D6406D193F582C00FF0E1E = {
+						TestTargetID = 78D64052193F582B00FF0E1E;
+					};
+				};
+			};
+			buildConfigurationList = 78D6404E193F582B00FF0E1E /* Build configuration list for PBXProject "AngryBirds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78D6404A193F582B00FF0E1E;
+			productRefGroup = 78D64054193F582C00FF0E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D64052193F582B00FF0E1E /* AngryBirds */,
+				78D6406D193F582C00FF0E1E /* AngryBirdsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D64051193F582B00FF0E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D64061193F582C00FF0E1E /* InfoPlist.strings in Resources */,
+				78D64069193F582C00FF0E1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D6406C193F582C00FF0E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D6407A193F582C00FF0E1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D6404F193F582B00FF0E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D64067193F582C00FF0E1E /* AppDelegate.mm in Sources */,
+				78D64063193F582C00FF0E1E /* main.m in Sources */,
+				78D64096193F5CDC00FF0E1E /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D6406A193F582C00FF0E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D6407C193F582C00FF0E1E /* AngryBirdsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D64074193F582C00FF0E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D64052193F582B00FF0E1E /* AngryBirds */;
+			targetProxy = 78D64073193F582C00FF0E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D6405F193F582C00FF0E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D64060193F582C00FF0E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78D64078193F582C00FF0E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D64079193F582C00FF0E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D6407D193F582C00FF0E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78D6407E193F582C00FF0E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D64080193F582C00FF0E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				INFOPLIST_FILE = "AngryBirds/AngryBirds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78D64081193F582C00FF0E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				INFOPLIST_FILE = "AngryBirds/AngryBirds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78D64083193F582C00FF0E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AngryBirds.app/AngryBirds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AngryBirdsTests/AngryBirdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78D64084193F582C00FF0E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AngryBirds.app/AngryBirds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				INFOPLIST_FILE = "AngryBirdsTests/AngryBirdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D6404E193F582B00FF0E1E /* Build configuration list for PBXProject "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D6407D193F582C00FF0E1E /* Debug */,
+				78D6407E193F582C00FF0E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D6407F193F582C00FF0E1E /* Build configuration list for PBXNativeTarget "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D64080193F582C00FF0E1E /* Debug */,
+				78D64081193F582C00FF0E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78D64082193F582C00FF0E1E /* Build configuration list for PBXNativeTarget "AngryBirdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D64083193F582C00FF0E1E /* Debug */,
+				78D64084193F582C00FF0E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78D6404B193F582B00FF0E1E /* Project object */;
+}
