@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783180DC1934CD62008B99DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180DB1934CD62008B99DF /* Foundation.framework */; };
+		783180DE1934CD62008B99DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180DD1934CD62008B99DF /* CoreGraphics.framework */; };
+		783180E01934CD62008B99DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180DF1934CD62008B99DF /* UIKit.framework */; };
+		783180E61934CD62008B99DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 783180E41934CD62008B99DF /* InfoPlist.strings */; };
+		783180E81934CD62008B99DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783180E71934CD62008B99DF /* main.m */; };
+		783180EC1934CD62008B99DF /* _AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783180EB1934CD62008B99DF /* _AppDelegate.m */; };
+		783180F51934CD62008B99DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180F41934CD62008B99DF /* XCTest.framework */; };
+		783180F61934CD62008B99DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180DB1934CD62008B99DF /* Foundation.framework */; };
+		783180F71934CD62008B99DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783180DF1934CD62008B99DF /* UIKit.framework */; };
+		783180FF1934CD62008B99DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 783180FD1934CD62008B99DF /* InfoPlist.strings */; };
+		783181011934CD62008B99DF /* kongjianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 783181001934CD62008B99DF /* kongjianTests.m */; };
+		78475BF919358A3300640DBC /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 78475BF819358A3300640DBC /* button.png */; };
+		78475BFB19358C7600640DBC /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 78475BFA19358C7600640DBC /* select.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783180F81934CD62008B99DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783180D01934CD62008B99DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783180D71934CD62008B99DF;
+			remoteInfo = kongjian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783180D81934CD62008B99DF /* kongjian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kongjian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783180DB1934CD62008B99DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		783180DD1934CD62008B99DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		783180DF1934CD62008B99DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		783180E31934CD62008B99DF /* kongjian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kongjian-Info.plist"; sourceTree = "<group>"; };
+		783180E51934CD62008B99DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		783180E71934CD62008B99DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		783180E91934CD62008B99DF /* kongjian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kongjian-Prefix.pch"; sourceTree = "<group>"; };
+		783180EA1934CD62008B99DF /* _AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _AppDelegate.h; sourceTree = "<group>"; };
+		783180EB1934CD62008B99DF /* _AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _AppDelegate.m; sourceTree = "<group>"; };
+		783180F31934CD62008B99DF /* kongjianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kongjianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783180F41934CD62008B99DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		783180FC1934CD62008B99DF /* kongjianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kongjianTests-Info.plist"; sourceTree = "<group>"; };
+		783180FE1934CD62008B99DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		783181001934CD62008B99DF /* kongjianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kongjianTests.m; sourceTree = "<group>"; };
+		78475BF819358A3300640DBC /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = "../../../Movies/xcode教程/1/微博项目视频（未加密）/新浪微博项目代码课件/图片/image/button.png"; sourceTree = "<group>"; };
+		78475BFA19358C7600640DBC /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = "../../../Movies/xcode教程/1/微博项目视频（未加密）/新浪微博项目代码课件/图片/image/select.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783180D51934CD62008B99DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783180DE1934CD62008B99DF /* CoreGraphics.framework in Frameworks */,
+				783180E01934CD62008B99DF /* UIKit.framework in Frameworks */,
+				783180DC1934CD62008B99DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783180F01934CD62008B99DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783180F51934CD62008B99DF /* XCTest.framework in Frameworks */,
+				783180F71934CD62008B99DF /* UIKit.framework in Frameworks */,
+				783180F61934CD62008B99DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783180CF1934CD62008B99DF = {
+			isa = PBXGroup;
+			children = (
+				783180E11934CD62008B99DF /* kongjian */,
+				783180FA1934CD62008B99DF /* kongjianTests */,
+				783180DA1934CD62008B99DF /* Frameworks */,
+				783180D91934CD62008B99DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783180D91934CD62008B99DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783180D81934CD62008B99DF /* kongjian.app */,
+				783180F31934CD62008B99DF /* kongjianTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783180DA1934CD62008B99DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				783180DB1934CD62008B99DF /* Foundation.framework */,
+				783180DD1934CD62008B99DF /* CoreGraphics.framework */,
+				783180DF1934CD62008B99DF /* UIKit.framework */,
+				783180F41934CD62008B99DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783180E11934CD62008B99DF /* kongjian */ = {
+			isa = PBXGroup;
+			children = (
+				783180EA1934CD62008B99DF /* _AppDelegate.h */,
+				783180EB1934CD62008B99DF /* _AppDelegate.m */,
+				783180E21934CD62008B99DF /* Supporting Files */,
+			);
+			path = kongjian;
+			sourceTree = "<group>";
+		};
+		783180E21934CD62008B99DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78475BFA19358C7600640DBC /* select.png */,
+				78475BF819358A3300640DBC /* button.png */,
+				783180E31934CD62008B99DF /* kongjian-Info.plist */,
+				783180E41934CD62008B99DF /* InfoPlist.strings */,
+				783180E71934CD62008B99DF /* main.m */,
+				783180E91934CD62008B99DF /* kongjian-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		783180FA1934CD62008B99DF /* kongjianTests */ = {
+			isa = PBXGroup;
+			children = (
+				783181001934CD62008B99DF /* kongjianTests.m */,
+				783180FB1934CD62008B99DF /* Supporting Files */,
+			);
+			path = kongjianTests;
+			sourceTree = "<group>";
+		};
+		783180FB1934CD62008B99DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				783180FC1934CD62008B99DF /* kongjianTests-Info.plist */,
+				783180FD1934CD62008B99DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783180D71934CD62008B99DF /* kongjian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783181041934CD62008B99DF /* Build configuration list for PBXNativeTarget "kongjian" */;
+			buildPhases = (
+				783180D41934CD62008B99DF /* Sources */,
+				783180D51934CD62008B99DF /* Frameworks */,
+				783180D61934CD62008B99DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kongjian;
+			productName = kongjian;
+			productReference = 783180D81934CD62008B99DF /* kongjian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		783180F21934CD62008B99DF /* kongjianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783181071934CD62008B99DF /* Build configuration list for PBXNativeTarget "kongjianTests" */;
+			buildPhases = (
+				783180EF1934CD62008B99DF /* Sources */,
+				783180F01934CD62008B99DF /* Frameworks */,
+				783180F11934CD62008B99DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783180F91934CD62008B99DF /* PBXTargetDependency */,
+			);
+			name = kongjianTests;
+			productName = kongjianTests;
+			productReference = 783180F31934CD62008B99DF /* kongjianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783180D01934CD62008B99DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 1;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Chobits;
+				TargetAttributes = {
+					783180F21934CD62008B99DF = {
+						TestTargetID = 783180D71934CD62008B99DF;
+					};
+				};
+			};
+			buildConfigurationList = 783180D31934CD62008B99DF /* Build configuration list for PBXProject "kongjian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 783180CF1934CD62008B99DF;
+			productRefGroup = 783180D91934CD62008B99DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783180D71934CD62008B99DF /* kongjian */,
+				783180F21934CD62008B99DF /* kongjianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783180D61934CD62008B99DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783180E61934CD62008B99DF /* InfoPlist.strings in Resources */,
+				78475BFB19358C7600640DBC /* select.png in Resources */,
+				78475BF919358A3300640DBC /* button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783180F11934CD62008B99DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783180FF1934CD62008B99DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783180D41934CD62008B99DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783180EC1934CD62008B99DF /* _AppDelegate.m in Sources */,
+				783180E81934CD62008B99DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783180EF1934CD62008B99DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783181011934CD62008B99DF /* kongjianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783180F91934CD62008B99DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783180D71934CD62008B99DF /* kongjian */;
+			targetProxy = 783180F81934CD62008B99DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		783180E41934CD62008B99DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783180E51934CD62008B99DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		783180FD1934CD62008B99DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783180FE1934CD62008B99DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		783181021934CD62008B99DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		783181031934CD62008B99DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783181051934CD62008B99DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kongjian/kongjian-Prefix.pch";
+				INFOPLIST_FILE = "kongjian/kongjian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		783181061934CD62008B99DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kongjian/kongjian-Prefix.pch";
+				INFOPLIST_FILE = "kongjian/kongjian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		783181081934CD62008B99DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kongjian.app/kongjian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kongjian/kongjian-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kongjianTests/kongjianTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		783181091934CD62008B99DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kongjian.app/kongjian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kongjian/kongjian-Prefix.pch";
+				INFOPLIST_FILE = "kongjianTests/kongjianTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783180D31934CD62008B99DF /* Build configuration list for PBXProject "kongjian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783181021934CD62008B99DF /* Debug */,
+				783181031934CD62008B99DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783181041934CD62008B99DF /* Build configuration list for PBXNativeTarget "kongjian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783181051934CD62008B99DF /* Debug */,
+				783181061934CD62008B99DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783181071934CD62008B99DF /* Build configuration list for PBXNativeTarget "kongjianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783181081934CD62008B99DF /* Debug */,
+				783181091934CD62008B99DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783180D01934CD62008B99DF /* Project object */;
+}
